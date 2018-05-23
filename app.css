@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+     width: 25%;
+     border: 3px solid blue;
+}
+#previous, #next{
+    padding: 10px;
+    margin: 10px;
+}
+#frame {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
