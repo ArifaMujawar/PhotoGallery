@@ -235,7 +235,15 @@ let data =
       src:'ben.jpg',
       alt:'poktikbenjamin.jpg',
       skills:['JavaScript', 'CSS', 'HTML', 'Java', 'Business Development'],
-      whySofterDeveloper:'Software will be an important medium through which we inte'
+      whySofterDeveloper:
+      'Software will be an important medium through which we interact with our thoughts, with each other, and with the world. To take part in the development of software is to take part in finding new perspectives of life, and perhaps, new meaning to live.',
+    longTermVision:
+      'To find meaningful work in the digital realm until the robots take over.',
+    motivatesMe:
+      'The remarkable dumbness of computers motivates me every morning to wake up and fix them.',
+    favoriteQuote:
+      'Compare yourself to who you were yesterday, not who someone else is today.',
+    joinedOn: '16.04.2018'
 },
 {     firstName:'Arifa Begam',
       lastName:'Mujawar',

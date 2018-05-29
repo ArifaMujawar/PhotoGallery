@@ -10,9 +10,50 @@
 </head>
 <body>
     <div class="container">
-        <div id ="frame"></div>
-        <button id ="previous" onclick="getPrevious()"><i class="fa fa-arrow-left"></i></button>
-        <button id ="next" onclick="getNext()"><i class="fa fa-arrow-right"></i></button>
+        <div class="header">
+            <img src="logo.svg" id="logo" alt="">
+            <ul>
+                <a href="#home">
+                    <li><i class="header-titles fa fa-home"></i>
+                    <span id = "home-tooltip" class="tooltip">HOME</span>
+                    </li></a>
+                <a href="#gallery">
+                    <li><i class="header-titles fa fa-image"></i>
+                    <span id = "image-tooltip" class="tooltip">PHOTO GALLERY</span>
+                    </li></a>
+                <a href="#contact">
+                    <li><i class="header-titles fa fa-user"></i>
+                    <span id = "user-tooltip" class="tooltip">CONTACT</span>
+                    </li></a>
+            </ul>
+        </div>
+        <div id="home">
+            <img id="group" src="images/group1.jpg" alt="group image">
+            <div class="text-block">
+                <h2>Enabling Integration through Technology.</h2>
+            </div>
+        </div>
+        <div id = "gallery">
+            <h2 id="heading-gallery">Trainee Gallery</h2>
+            <div id = "photo_gallery">
+                <button id ="previous" onclick="getPrevious()"><i class="fa fa-arrow-left"></i></button>
+                <div id ="frame" ></div>
+                <button id ="next" onclick="getNext()"><i class="fa fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div id = "contact">
+           <h3 id="write-to-us">Reach to us</h3> 
+           <h4>Mailing Address</h4>
+           <p class="address">Hietaniemenkatu 7 A, 00100 Helsinki, Finland</p>
+           <a href="#" class=" contact fa fa-facebook"></a>
+           <a href="#" class="contact fa fa-twitter"></a>
+           <a href="#" class="contact fa fa-google"></a>
+           <a href="#" class="contact fa fa-linkedin"></a>
+           <a href="#" class="contact fa fa-github"></a> 
+        </div>
+        <div id = "footer">
+            <p id="copyright">&copy;Copyright 2018, All rights reserved</p>
+        </div>
     </div>
 </body>
 
